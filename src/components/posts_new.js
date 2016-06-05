@@ -5,6 +5,11 @@ class PostsNew extends Component {
     return (
       <div>
         Create Form
+        <form >
+          <input />
+          <input />
+          <input />
+        </form>
       </div>
     );
   }
