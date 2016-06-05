@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class PostsShow extends Component {
   render() {
     return (
-      <div>{this.props.post.title}</div>
-
-    );
+      <div>Show post {this.props.params.id}</div>
+    
+    )
   }
 }
 
