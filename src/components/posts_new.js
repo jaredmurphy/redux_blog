@@ -12,15 +12,9 @@ class PostsNew extends Component {
   onSubmit(props) {
     this.props.createPost(props)
       .then(() => {
-        // blog post has been created, navigate user to index
-        // we navigate by calling this.context.router.push with
-        // the new path to navigate to
         this.context.router.push('/');
       })
   }
-
-  //
-  //handleSubmit(this.props.createPost)
 
   render() {
     const { fields: { title, categories, content }, handleSubmit } = this.props;
