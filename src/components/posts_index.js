@@ -11,6 +11,7 @@ class PostsIndex extends Component {
   render() {
     return (
     <div>List of blog posts</div>
+    <button>New Post</button>
     );
   }
 }
