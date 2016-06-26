@@ -1,5 +1,5 @@
 {
-  "name": "Redux React Blog",
+  "name": "react_redux_blog",
   "version": "1.0.0",
   "description": "Simple Blog App made with React & Redux",
   "main": "index.js",
