@@ -22,7 +22,7 @@ class PostsNew extends Component {
       <form onSubmit={ handleSubmit(this.onSubmit.bind(this)) }>
         <h3>Create a new post</h3>
 
-        <div className={`form-group ${this.props.title.touched && this.props.title.invalid ? 'has-danger': ''}`}>
+        <div className={`form-group ${title.touched && title.invalid ? 'has-danger': ''}`}>
           <label>Title</label>
           <input type="text" className="form-control" {...title}/>
           <div className="text-help">
