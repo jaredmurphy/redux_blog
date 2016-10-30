@@ -18,6 +18,7 @@ class PostsNew extends Component {
 
   render() {
     const { fields: { title, categories, content }, handleSubmit } = this.props;
+    if (!title) {title = ''};
     return (
       <form onSubmit={ handleSubmit(this.onSubmit.bind(this)) }>
         <h3>Create a new post</h3>
